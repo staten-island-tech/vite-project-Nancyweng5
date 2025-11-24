@@ -1,52 +1,52 @@
 const art = [
   {
-  name : "As Light Rain Falls Without Reason",
-  img : "fontaine_character.webp",
-  region : "Fontaine",  
-  },
-  {
   name : "We Will Be Reunited",
-  img : "Welcome To Teyvat",
+  img : "m.webp",
   region : "Other",
   },
   {
+  name : "Welcome To Tevyat",
+  img : "1.0.webp",
+  region : "Mondstadt",
+  },
+    {
   name : "A New Star Approaches",
-  img : "",
-  region : "",
+  img : "1.1.avif",
+  region : "Mondstadt",
   },
   {
   name : "The Chalk Prince and the Dragon",
-  img : "",
+  img : "1.2.jpg",
   region : "",
   },
   {
   name : "All That Glitters",
-  img : "",
+  img : "xiaos.jpg",
   region : "",
   },
   {
   name : "Invitation of Windblume",
-  img : "",
+  img : "windblume.jpg",
   region : "",
   },
   {
   name : "Beneath the Light of Jadeite",
-  img : "",
+  img : "jadite.jpg",
   region : "",
   },
   {
   name : "Midsummer Island Adventure",
-  img : "",
+  img : "midsummer.jpg",
   region : "",
   },
   {
   name : "The Immovable God and the Eternal Euthymia",
-  img : "",
+  img : "god.jpg",
   region : "",
   },
   {
   name : "Floating World Under the Moonlight",
-  img : "",
+  img : "floating.jpg",
   region : "",
   },
     {
@@ -55,86 +55,211 @@ const art = [
   region : "",
   },
     {
-  name : "",
+  name : "Shadows Amidst Snowstorms",
   img : "",
   region : "",
   },
     {
-  name : "",
+  name : "Fleeting Colors in Flight",
   img : "",
   region : "",
   },
     {
-  name : "",
+  name : "When the Sakura Bloom",
   img : "",
   region : "",
   },
     {
-  name : "",
+  name : "Zephyr of the Violet Garden",
   img : "",
   region : "",
   },
     {
-  name : "",
+  name : "Hidden Dreams in the Depths",
   img : "",
   region : "",
   },
     {
-  name : "",
+  name : "Summer Fantasia",
   img : "",
   region : "",
   },
     {
-  name : "",
+  name : "The Morn a Thousand Roses Brings",
   img : "",
   region : "",
   },
     {
-  name : "",
+  name : "King Deshret and the Three Magi",
   img : "",
   region : "",
   },
     {
-  name : "",
+  name : "Akasha Pulses, the Kalpa Flame Rises",
   img : "",
   region : "",
   },
     {
-  name : "",
+  name : "All Senses Clear, All Existence Void",
   img : "",
   region : "",
   },
     {
-  name : "",
+  name : "The Exquisite Night Chimes",
   img : "",
   region : "",
   },
     {
-  name : "",
+  name : "Windblume's Breath",
   img : "",
   region : "",
   },
     {
-  name : "",
+  name : "A Parade of Providence",
   img : "",
   region : "",
   },
     {
-  name : "",
+  name : "Duel! The Summoners' Summit!",
   img : "",
   region : "",
   },
     {
-  name : "",
+  name : " Secret Summer Paradise",
   img : "",
   region : "",
   },
     {
-  name : "",
+  name : "As Light Rain Falls Without Reason",
+  img : "fontaine_character.webp",
+  region : "Fontaine",  
+  },
+    {
+  name : "To the Stars Shining in the Depths",
   img : "",
   region : "",
   },
-  
+      {
+  name : "Masquerade of the Guilty",
+  img : "",
+  region : "",
+  },
+
+      {
+  name : "Roses and Muskets",
+  img : "",
+  region : "",
+  },
+      {
+  name : "Vibrant Harriers Aloft in Spring Breeze",
+  img : "",
+  region : "",
+  },
+      {
+  name : "Blades Weaving Betwixt Brocade",
+  img : "",
+  region : "",
+  },
+      {
+  name : "Two Worlds Aflame, the Crimson Night Fades",
+  img : "",
+  region : "",
+  },
+      {
+  name : "Summertide Scales and Tales",
+  img : "",
+  region : "",
+  },
+      {
+  name : "Flowers Resplendent on the Sun-Scorched Sojourn",
+  img : "",
+  region : "",
+  },
+      {
+  name : "The Rainbow Destined to Burn",
+  img : "",
+  region : "",
+  },
+      {
+  name : "Tapestry of Spirit and Flame",
+  img : "",
+  region : "",
+  },
+      {
+  name : "Incandescent Ode of Resurrection",
+  img : "",
+  region : "",
+  },
+      {
+  name : "Moonlight Amidst Dreams",
+  img : "",
+  region : "",
+  },
+      {
+  name : "Day of the Flame's Return",
+  img : "",
+  region : "",
+  },
+      {
+  name : "Paralogism",
+  img : "",
+  region : "",
+  },
+      {
+  name : "Void Star's Advent",
+  img : "",
+  region : "",
+  },
+      {
+  name : "A Space and Time for You",
+  img : "",
+  region : "",
+  },
+      {
+  name : " Astral Actuation",
+  img : "",
+  region : "",
+  },
+    {
+  name : "Sunspray Summer Resort",
+  img : "",
+  region : "",
+  },
+      {
+  name : "A Dance of Snowy Tides and Hoarfrost Groves",
+  img : "",
+  region : "",
+  },
+    {
+  name : "Genshin Impact 5th Anniversary",
+  img : "",
+  region : "",
+  },
+    {
+  name : "Moonsong of the Groves",
+  img : "",
+  region : "",
+  },  
+      {
+  name : "The Lone Light Knocks at Night",
+  img : "",
+  region : "",
+  },  
+      {
+  name : "An Elegy for Faded Moonlight",
+  img : "",
+  region : "",
+  },  
+      {
+  name : " Phantom Night Candlelight",
+  img : "",
+  region : "",
+  },  
+      {
+  name : "",
+  img : "",
+  region : "A Nocturne of the Far North",
+  },  
 
 ]
 
