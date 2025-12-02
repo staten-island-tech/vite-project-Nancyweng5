@@ -2,263 +2,263 @@ import './style.css';
 const art = [
   {
   name : "We Will Be Reunited",
-  img : "m.webp",
+  img : "/Images/m.webp",
   region : "Other",
   },
   {
   name : "Welcome To Tevyat",
-  img : "1.0.webp",
+  img : "/Images/1.0.webp",
   region : "Mondstadt",
   },
     {
   name : "A New Star Approaches",
-  img : "1.1.avif",
+  img : "/Images/1.1.avif",
   region : "Liyue",
   },
   {
   name : "The Chalk Prince and the Dragon",
-  img : "1.2.jpg",
+  img : "/Images/1.2.jpg",
   region : "Mondstadt",
   },
   {
   name : "All That Glitters",
-  img : "xiaos.jpg",
+  img : "/Images/xiaos.jpg",
   region : "Liyue",
   },
   {
   name : "Invitation of Windblume",
-  img : "windblume.jpg",
+  img : "/Images/windblume.jpg",
   region : "Mondstadt",
   },
   {
   name : "Beneath the Light of Jadeite",
-  img : "jadite.jpg",
+  img : "/Images/jadite.jpg",
   region : "Liyue",
   },
   {
   name : "Midsummer Island Adventure",
-  img : "midsummer.jpg",
+  img : "/Images/midsummer.jpg",
   region : "Mondstadt",
   },
   {
   name : "The Immovable God and the Eternal Euthymia",
-  img : "god.jpg",
+  img : "/Images/god.jpg",
   region : "Inazuma",
   },
   {
   name : "Floating World Under the Moonlight",
-  img : "floating.jpg",
+  img : "/Images/floating.jpg",
   region : "Inazuma",
   },
     {
   name : "Into the Perilous Labyrinth of Fog",
-  img : "into.jpg",
+  img : "/Images/into.jpg",
   region : "Liyue",
   },
     {
   name : "Shadows Amidst Snowstorms",
-  img : "shadows.jpg",
+  img : "/Images/shadows.jpg",
   region : "Mondstadt",
   },
     {
   name : "Fleeting Colors in Flight",
-  img : "fleeting.jpg",
+  img : "/Images/fleeting.jpg",
   region : "Liyue",
   },
     {
   name : "When the Sakura Bloom",
-  img : "sakura.png",
+  img : "/Images/sakura.png",
   region : "Inazuma",
   },
     {
   name : "Zephyr of the Violet Garden",
-  img : "zephyr.jpg",
+  img : "/Images/zephyr.jpg",
   region : "Inazuma",
   },
     {
   name : "Hidden Dreams in the Depths",
-  img : "hidden.png",
+  img : "/Images/hidden.png",
   region : "Liyue",
   },
     {
   name : "Summer Fantasia",
-  img : "summer.jpg",
+  img : "/Images/summer.jpg",
   region : "Other",
   },
     {
   name : "The Morn a Thousand Roses Brings",
-  img : "morn.jpg",
+  img : "/Images/morn.jpg",
   region : "Sumeru",
   },
     {
   name : "King Deshret and the Three Magi",
-  img : "king.jpg",
+  img : "/Images/king.jpg",
   region : "Sumeru",
   },
     {
   name : "Akasha Pulses, the Kalpa Flame Rises",
-  img : "akasha.jpg",
+  img : "/Images/akasha.jpg",
   region : "Sumeru",
   },
     {
   name : "All Senses Clear, All Existence Void",
-  img : "all.jpg",
+  img : "/Images/all.jpg",
   region : "Sumeru",
   },
     {
   name : "The Exquisite Night Chimes",
-  img : "exquisite.jpg",
+  img : "/Images/exquisite.jpg",
   region : "Liyue",
   },
     {
   name : "Windblume's Breath",
-  img : "breath.jpg",
+  img : "/Images/breath.jpg",
   region : "Monstadt",
   },
     {
   name : "A Parade of Providence",
-  img : "parade.jpg",
+  img : "/Images/parade.jpg",
   region : "Sumeru",
   },
     {
   name : "Duel! The Summoners' Summit!",
-  img : "duel.jpg",
+  img : "/Images/duel.jpg",
   region : "Sumeru",
   },
     {
   name : " Secret Summer Paradise",
-  img : "secret.jpg",
+  img : "/Images/secret.jpg",
   region : "Other",
   },
     {
   name : "As Light Rain Falls Without Reason",
-  img : "as.webp",
+  img : "/Images/as.webp",
   region : "Fontaine",  
   },
     {
   name : "To the Stars Shining in the Depths",
-  img : "stars.webp",
+  img : "/Images/stars.webp",
   region : "Fontaine",
   },
       {
   name : "Masquerade of the Guilty",
-  img : "mas.webp",
+  img : "/Images/mas.webp",
   region : "Fontaine",
   },
 
       {
   name : "Roses and Muskets",
-  img : "roses.jpg",
+  img : "/Images/roses.jpg",
   region : "Fontaine",
   },
       {
   name : "Vibrant Harriers Aloft in Spring Breeze",
-  img : "vibrant.jpg",
+  img : "/Images/vibrant.jpg",
   region : "Liyue",
   },
       {
   name : "Blades Weaving Betwixt Brocade",
-  img : "blades.webp",
+  img : "/Images/blades.webp",
   region : "Fontaine ",
   },
       {
   name : "Two Worlds Aflame, the Crimson Night Fades",
-  img : "Two.jpg",
+  img : "/Images/two.jpg",
   region : "Fontaine",
   },
       {
   name : "Summertide Scales and Tales",
-  img : "summertime.jpg",
+  img : "/Images/summertime.jpg",
   region : "Other",
   },
       {
   name : "Flowers Resplendent on the Sun-Scorched Sojourn",
-  img : "flowers.jpg",
+  img : "/Images/flowers.jpg",
   region : "Natlan",
   },
       {
   name : "The Rainbow Destined to Burn",
-  img : "The.jpg",
+  img : "/Images/the.jpg",
   region : "Natlan",
   },
       {
   name : "Tapestry of Spirit and Flame",
-  img : "tapestry.jpg",
+  img : "/Images/tapestry.jpg",
   region : "Natlan",
   },
       {
   name : "Incandescent Ode of Resurrection",
-  img : "ode.jpg",
+  img : "/Images/ode.jpg",
   region : "Natlan",
   },
       {
   name : "Moonlight Amidst Dreams",
-  img : "moonlight.jpg",
+  img : "/Images/moonlight.jpg",
   region : "Inazuma",
   },
       {
   name : "Day of the Flame's Return",
-  img : "day.jpg",
+  img : "/Images/day.jpg",
   region : "Natlan",
   },
       {
   name : "Paralogism",
-  img : "paralogism.jpg",
+  img : "/Images/paralogism.jpg",
   region : "Mondstadt",
   },
       {
   name : "Void Star's Advent",
-  img : "void.jpg",
+  img : "/Images/void.jpg",
   region : "Other",
   },
       {
   name : "A Space and Time for You",
-  img : "space.webp",
+  img : "/Images/space.webp",
   region : "Other",
   },
       {
   name : " Astral Actuation",
-  img : "Astral.jpg",
+  img : "/Images/astral.jpg",
   region : "Natlan",
   },
     {
   name : "Sunspray Summer Resort",
-  img : "sunspray.jpg",
+  img : "/Images/sunspray.jpg",
   region : "Natlan",
   },
       {
   name : "A Dance of Snowy Tides and Hoarfrost Groves",
-  img : "dance.jpg",
+  img : "/Images/dance.jpg",
   region : "Nodkrai",
   },
     {
   name : "Genshin Impact 5th Anniversary",
-  img : "5th.webp",
+  img : "/Images/5th.webp",
   region : "Other",
   },
     {
   name : "Moonsong of the Groves",
-  img : "moonsong.webp",
+  img : "/Images/moonsong.webp",
   region : "Nodkrai",
   },  
       {
   name : "The Lone Light Knocks at Night",
-  img : "lone.webp",
+  img : "/Images/lone.webp",
   region : "Nodkrai",
   },  
       {
   name : "An Elegy for Faded Moonlight",
-  img : "elegy.jpg",
+  img : "/Images/elegy.jpg",
   region : "Nodkrai",
   },  
       {
   name : " Phantom Night Candlelight",
-  img : "phantom.jpg",
+  img : "/Images/phantom.jpg",
   region : "Other",
   },  
       {
   name : "A Nocturne of the Far North",
-  img : "nocturne.jpg",
+  img : "/Images/nocturne.jpg",
   region : "Nodkrai",
   },  
 
@@ -269,9 +269,9 @@ function inject(art){
   container.insertAdjacentHTML(
     "afterbegin",
     `<div class = "art">
-      <img scr "${art.img}"/>
-      <h2>${art.name}</h2>
-      <h3>${art.region}</h3>
+      <img class="img" src="${art.img}" />
+      <h2 class = "name">${art.name}</h2>
+      <h3 class = "region">${art.region}</h3>
     </div>`
   );
 }
@@ -279,7 +279,7 @@ function inject(art){
 function filterByRegion(){
     const filterRegion = document.querySelectorAll(".filter-art")
     const container = document.querySelector(".container")
-    filteritem.forEach((btn) => {
+    filterRegion.forEach((btn) => {
     btn.addEventListener("click", function (event) {
       container.innerHTML = "";
       const region = event.target.textContent.trim().toLowerCase();
@@ -312,3 +312,6 @@ function filterByRegion(){
       
     )})
 }
+filterByRegion()
+
+art.forEach(item => inject(item));
