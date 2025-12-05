@@ -318,7 +318,25 @@ function addart(){
   const newregion = document.querySelector(".newregion")
   const newimage = document.querySelector(".imagefile")
   const btn = document.querySelector(".btn")
+    button.addEventListener("click", () => {
+      const name = newname.value.trim()
+      const region = newregion.value.trim()
+      const file = newimage.files[0];
 
-  button.addEventListener
+       if (!name || !region || !file) {
+      alert("Please fill out all fields.");
+      return;
+    }
+      const imgURL = URL.createObjectURL(file);
+      
+    const newArt = {
+      name: name,
+      region: region,
+      img: imgURL,
+    };
+     art.push(newArt);
+     inject(newArt);
+
+})
 }
 addart()
