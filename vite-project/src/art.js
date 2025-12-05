@@ -313,3 +313,12 @@ function filterByRegion() {
   });
 }
 filterByRegion();
+function addart(){
+  const newname = document.querySelector(".artname");
+  const newregion = document.querySelector(".newregion")
+  const newimage = document.querySelector(".imagefile")
+  const btn = document.querySelector(".btn")
+
+  button.addEventListener
+}
+addart()
