@@ -273,9 +273,19 @@ function inject(art) {
       <h3 class = "region">${art.region}</h3>
     </div>`
   );
+
+  const modal = document.querySelector(".modal");
+  const modalimg = document.querySelector(".modalimg");
+  const artimage = document.querySelector(".art .img");
+  artimage.addEventListener("click", () =>{
+    modalimg.src = art.img;
+    modal.style.display = "flex"
+  })
+  modal.addEventListener("click", () => {
+    modal.style.display = "none"
+  })
 }
 art.forEach((art) => inject(art));
-
 function filterByRegion() {
   const filterRegion = document.querySelectorAll(".filter-art");
   const container = document.querySelector(".container");
@@ -318,9 +328,9 @@ function addart(){
   const newregion = document.querySelector(".newregion")
   const newimage = document.querySelector(".imagefile")
   const btn = document.querySelector(".btn")
-    button.addEventListener("click", () => {
-      const name = newname.value.trim()
-      const region = newregion.value.trim()
+    btn.addEventListener("click", () => {
+      const name = newname.value.trim();
+      const region = newregion.value.trim();
       const file = newimage.files[0];
 
        if (!name || !region || !file) {
@@ -336,7 +346,9 @@ function addart(){
     };
      art.push(newArt);
      inject(newArt);
-
+     newname.value = "";
+    newregion.value = "";
+    newimage.value = "";
 })
 }
 addart()
