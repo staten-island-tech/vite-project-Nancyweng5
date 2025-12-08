@@ -352,3 +352,27 @@ function addart(){
 })
 }
 addart()
+
+function artoftheday(){
+  const randomart = Math.floor(Math.random() * art.length);
+  const artofday = art[randomart]
+  const artofdaytitle = document.querySelector(".artofthedayname")
+  const artofdayimg = document.querySelector(".artofthedayimg")
+  artofdaytitle.textContent = "Art of the Day : " + artofday.name
+  artofdayimg.src = artofday.img
+}
+artoftheday()
+
+function modeswitch(){
+  const modebtn = document.querySelector(".darkmodebtn")
+  modebtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark")
+    if (document.body.classList.contains("dark")) {
+      modebtnbtn.textContent = "Light Mode";
+    } else {
+      modebtn.textContent = "Dark Mode";
+    }
+  });
+}
+
+modeswitch()

@@ -13,7 +13,12 @@
   </head>
   <body>
     <section class="titlecontainer">
+      <button class = "darkmodebtn">Dark Mode</button>
       <h1 class="titlewebsite">Genshin Art</h1>
+      <div class = "artoftheday">
+      <h2 class = "artofthedayname">Art Of The Day</h2>
+      <img class = "artofthedayimg"/>
+      </div>
     </section>
     <div class="filter-container">
       <a>
@@ -28,7 +33,13 @@
         <button class="filter-art">Other</button>
       </a>
       </div>
-      <section class = "addart">
+    <div class = "modal">
+      <img class = "modalimg">
+    </div>
+    <div class="container"></div>
+    <script src="/src/art.js"></script>
+    <script type="module" src="/src/art.js"></script>
+    <section class = "addart">
       <div class="form">
       <h2 class="formthings">Input New Art</h2>
       <h2 class="formthings">Name : <input  type="text" class = "artname" required /></h2>
@@ -38,11 +49,5 @@
       </form>
     </div>
     </section>
-    <div class = "modal">
-      <img class = "modalimg">
-    </div>
-    <div class="container"></div>
-    <script src="/src/art.js"></script>
-    <script type="module" src="/src/art.js"></script>
   </body>
 </html>
