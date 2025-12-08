@@ -335,7 +335,7 @@ function addart(){
 
        if (!name || !region || !file) {
       alert("Please fill out all fields.");
-      return;
+      return; 
     }
       const imgURL = URL.createObjectURL(file);
       
@@ -368,7 +368,7 @@ function modeswitch(){
   modebtn.addEventListener("click", () => {
     document.body.classList.toggle("dark")
     if (document.body.classList.contains("dark")) {
-      modebtnbtn.textContent = "Light Mode";
+      modebtn.textContent = "Light Mode";
     } else {
       modebtn.textContent = "Dark Mode";
     }
