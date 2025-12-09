@@ -276,7 +276,7 @@ function inject(art) {
 
   const modal = document.querySelector(".modal");
   const modalimg = document.querySelector(".modalimg");
-  const artimage = document.querySelector(".art .img");
+  const artimage = container.firstElementChild.querySelector(".img");
   artimage.addEventListener("click", () =>{
     modalimg.src = art.img;
     modal.style.display = "flex"
@@ -365,14 +365,14 @@ artoftheday()
 
 function modeswitch(){
   const modebtn = document.querySelector(".darkmodebtn")
-  modebtn.addEventListener("click", () => {
-    document.body.classList.toggle("dark")
-    if (document.body.classList.contains("dark")) {
-      modebtn.textContent = "Light Mode";
-    } else {
-      modebtn.textContent = "Dark Mode";
-    }
-  });
+  modebtn.addEventListener("click", function () {
+  if (document.body.classList.contains("cool")) {
+    document.body.classList.add("warm");
+    document.body.classList.remove("cool");
+  } else {
+    document.body.classList.add("cool");
+    document.body.classList.remove("warm");
+  }
+});
 }
-
 modeswitch()
